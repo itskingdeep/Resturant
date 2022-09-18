@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURANTLY</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+    <section class="header">
+        <nav class="get1" id="navbar">
+            <a href="index.html" class="logo">RESTAURANTLY</a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#about1">ABOUT</a></li>
+                    <li><a href="#menu1">MENU</a></li>
+                    <li><a href="#event1">EVENT</a></li>
+                    <li><a href="#gallery1">GALLERY</a></li>
+                    <li><a href="#contact1">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to Restaurantly</h1>
+            <p>Delivering Great food for more than 55 years!</p>
+
+            <a href="#book1" class="hero-btn">BOOK A TABLE</a>
+        </div>
+        </div>
+    </section>
+
+
+<!-- about section -->
+
+    <div class="parallax1">
+        <section class="About">
+            <a id="about1"><div class="box2"></a>
+                <div class="l1">
+
+                     <h2>Volumtatewm dignissimos provident quasi corporis voluptates sit assumenda</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eos natus quaerat iste qui vitae
+                        perferendis! Ea consequatur quidem non ducimus ratione alias odit.</p>
+                    <br>
+                    <p> <i class="fa fa-check-circle"></i> Lorem ipsum dolor, sit consectetur adipisicing elit.
+                        Molestias repellat at quidem laborum, vel
+                        ? </p>
+                    <p> <i class="fa fa-check-circle"></i> Lorem ipsum dolor, sit consectetur adipisicing elit.
+                        Molestias repellat at quidem laborum, vel
+                        ? </p>
+                    <p> <i class="fa fa-check-circle"></i> Lorem ipsum dolor, sit consectetur adipisicing elit.
+                        Molestias repellat at quidem laborum, vel
+                        ? </p><br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eos natus quaerat iste qui vitae
+                        perferendis! Ea consequatur quidem non ducimus ratione alias ipsam repudiandae esse dolores
+                        excepturi libero quia eligendi fugiat laborum ullam, sunt reprehenderit repellendus illo atque
+                        impedit magnam omnis voluptas laboriosam? Itaque reprehenderit velit magni. Repellendus, odit.
+                    </p>
+                    <br>
+
+                </div>
+                <div class="r1">
+                    <img src="pexels-pixabay-260922.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+
+<!-- why section -->
+    <section class="why">
+        <h6>WHY US______</h6>
+        <h1>Why choose our restaurant</h1>
+
+        <div class="why-row">
+            <div class="why-col">
+                <h2>01</h2>
+                <h3>Great Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, exercitationem.</p>
+            </div>
+            <div class="why-col">
+                <h2>02</h2>
+                <h3>24/7 Availability</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, exercitationem.</p>
+            </div>
+            <div class="why-col">
+                <h2>03</h2>
+                <h3>Quality dishes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, exercitationem.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- menu section -->
+     <section class="menu" id="menu">
+          
+           <a id="menu1"> <h1>Check Our Tasty Menu</h1></a>
+            <ul class="controls">
+                <li class="buttons button-active" id="all">all</li>
+                <li class="buttons" id="sandwich">sandwich</li>
+                <li class="buttons" id="cake">cake</li>
+                <li class="buttons" id="juice">juice</li>
+                <li class="buttons" id="chocolate">chocolates</li>
+            </ul>
+
+            <div class="image-container">
+
+                <div class="image sandwich">
+                    <img src="pexels-anton-porsche-133578.jpg">
+                    <a href="#">sandwich</a>
+                </div>
+                <div class="image sandwich">
+                    <img src="pexels-adela-cristea-4491396.jpg">
+                    <a href="#">sandwich</a>
+                </div>
+                <div class="image sandwich">
+                    <img src="pexels-suzy-hazelwood-1209029.jpg">
+                    <a href="#">sandwich</a>
+                </div>
+                <div class="image sandwich">
+                    <img src="pexels-erin-wang-1647163.jpg">
+                    <a href="#">sandwich</a>
+                </div>
+                <div class="image cake">
+                    <img src="pexels-abhinav-goswami-291528.jpg">
+                    <a href="#">Cake</a>
+                </div>
+                <div class="image cake">
+                    <img src="pexels-daria-shevtsova-1070850.jpg">
+                    <a href="#">Cake</a>
+                </div>
+                <div class="image cake">
+                    <img src="pexels-jasmine-lew-140831.jpg">
+                    <a href="#">Cake</a>
+                </div>
+                <div class="image juice">
+                    <img src="pexels-lisa-fotios-109275.jpg">
+                    <a href="#">juice</a>
+                </div>
+                <div class="image juice">
+                    <img src="pexels-toni-cuenca-616833.jpg">
+                    <a href="#">juice</a>
+                </div>
+                <div class="image chocolate">
+                    <img src="pexels-pixabay-45202.jpg">
+                    <a href="#">Chocolate</a>
+                </div>
+                <div class="image chocolate">
+                    <img src="pexels-lisa-fotios-918327.jpg">
+                    <a href="#">Chocolate</a>
+                </div>
+                <div class="image chocolate">
+                    <img src="pexels-avichal-lodhi-2819088.jpg">
+                    <a href="#">Chocolate</a>
+                </div>
+
+            </div>
+    </section>
+
+<!-- specials section -->
+    <section class="specials">
+            <h6> OUR SPECIALS_______</h6>
+
+
+            <div class="box3">
+                <div class="leftt">
+
+                    <ul class="spec">
+                        <li class="items" id="1">Cassoulet</li>
+                        <li class="items" id="2">Coq au vin </li>
+                        <li class="items" id="3">Beef bourguignon</li>
+                        <li class="items" id="4">Ratatoulille</li>
+                        <li class="items" id="5">Quinche Lorraine</li>
+
+                    </ul>
+
+                </div>
+                <div class="rightt">
+                    <div class="i1">
+                        <div class="lefttt">
+                            <h2>Cassoulet</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, quos! Lorem, ipsum dolor
+                                sit amet consectetur adipisicing elit. Ea eos natus quaerat iste qui vitae
+                                perferendis! Ea consequatur quidem Itaque reprehenderit velit magni. Repellendus, odit.
+                            </p>
+                        </div>
+
+                        <img src="pexels-avichal-lodhi-2819088.jpg" alt="">
+                    </div>
+                    <div class="i2">
+                        <div class="lefttt">
+                            <h2>Coq au vin</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aperiam necessitatibus,
+                                vero tempore explicabo natus labore blanditiis porro, dolor, sit excepturi. Quam,
+                                eligendi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eos natus quaerat
+                                iste qui vitae
+                                perferendis! Ea consequatur quidem Itaque reprehenderit velit magni. Repellendus, odit.
+                            </p>
+                        </div>
+
+                        <img src="pexels-chan-walrus-958545.jpg" alt="">
+
+                    </div>
+                    <div class="i3">
+                        <div class="lefttt">
+                            <h2>Beef bourguignon</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur.Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Ea eos natus quaerat iste qui vitae
+                                perferendis! Ea consequatur quidem Itaque reprehenderit velit magni. Repellendus, odit.
+                            </p>
+                        </div>
+
+                        <img src="pexels-anton-porsche-133578.jpg" alt="">
+
+                    </div>
+                    <div class="i4">
+                        <div class="lefttt">
+                            <h2> Ratatoulille</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ratione ipsa. Laudantium
+                                aspernatur saepe commodi ducimus provident ullam eum delectus. Necessitatibus veniam
+                                enim rem consequuntur iusto quos expedita voluptatibus deleniti fugit maxime!Lorem,
+                                ipsum dolor sit amet consectetur adipisicing elit. Ea eos natus quaerat iste qui vitae
+                                perferendis! Ea consequatur quidem Itaque reprehenderit velit magni. Repellendus, odit.
+                            </p>
+                        </div>
+                        <img src="pexels-adela-cristea-4491396.jpg" alt="">
+
+
+                    </div>
+                    <div class="i5">
+                        <div class="lefttt">
+                            <h2> Quinche Lorraine</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eos natus quaerat iste qui
+                                vitae
+                                perferendis! Ea consequatur quidem Itaque reprehenderit velit magni. Repellendus, odit.
+                            </p>
+                        </div>
+                        <img src="pexels-erin-wang-1647163.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+    </section>
+    </div>
+
+<!-- events section -->
+   <a id="event1"> <section class=" swiper mySwiper event"> </a>
+        <h6>EVENTS......</h6>
+        <h1>Organise Your Events in our Restaurant</h1>
+        <div class="swiper-wrapper">
+            <div class=" swiper-slide event-box">
+                <div class="event-images">
+                    <img src="pexels-mikhail-nilov-9543832.jpg" alt="">
+
+                </div>
+                <div class="event-type">
+
+                    <h2>Birthday Parties</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eos natus quaerat iste qui vitae
+                        perferendis! Ea consequatur quidem non ducimus ratione alias odit.</p>
+                    <br>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit consectetur
+                        adipisicing
+                        Molestias repellat at quidem laborum, vel
+                        ? </p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit consectetur
+                        adipisicing elit. Molestias repellat at quidem laborum, vel
+                        ? </p>
+                    <p> Lorem ipsum dolor, sit consectetur adipisicing elit. Molestias repellat at quidem laborum, vel
+                        ? </p><br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eos natus quaerat iste qui vitae
+                        perferendis! Ea consequatur quidem non ducimus ratione alias ipsam repudiandae esse dolores
+                        excepturi libero quia eligendi fugiat laborum ullam, sunt reprehenderit repellendus illo atque
+                        impedit magnam omnis voluptas laboriosam? Itaque reprehenderit velit magni. Repellendus, odit.
+                    </p>
+                    <br>
+
+                </div>
+            </div>
+
+            <div class=" swiper-slide event-box">
+                <div class="event-images">
+                    <img src="pexels-askar-abayev-5638751.jpg" alt="">
+
+                </div>
+                <div class="event-type">
+
+                    <h2>Private Parties</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eos natus quaerat iste qui vitae
+                        perferendis! Ea consequatur quidem non ducimus ratione alias odit.</p>
+                    <br>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit consectetur
+                        adipisicing
+                        Molestias repellat at quidem laborum, vel
+                        ? </p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit consectetur
+                        adipisicing elit. Molestias repellat at quidem laborum, vel
+                        ? </p>
+                    <p> Lorem ipsum dolor, sit consectetur adipisicing elit. Molestias repellat at quidem laborum, vel
+                        ? </p><br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eos natus quaerat iste qui vitae
+                        perferendis! Ea consequatur quidem non ducimus ratione alias ipsam repudiandae esse dolores
+                        excepturi libero quia eligendi fugiat laborum ullam, sunt reprehenderit repellendus illo atque
+                        impedit magnam omnis voluptas laboriosam? Itaque reprehenderit velit magni. Repellendus, odit.
+                    </p>
+                    <br>
+
+                </div>
+            </div>
+
+            <div class=" swiper-slide event-box">
+                <div class="event-images">
+                    <img src="pexels-fauxels-3184177.jpg" alt="">
+
+                </div>
+                <div class="event-type">
+
+                    <h2>Custom Parties</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eos natus quaerat iste qui vitae
+                        perferendis! Ea consequatur quidem non ducimus ratione alias odit.</p>
+                    <br>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit consectetur
+                        adipisicing
+                        Molestias repellat at quidem laborum, vel
+                        ? </p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit consectetur
+                        adipisicing elit. Molestias repellat at quidem laborum, vel
+                        ? </p>
+                    <p> Lorem ipsum dolor, sit consectetur adipisicing elit. Molestias repellat at quidem laborum, vel
+                        ? </p><br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea eos natus quaerat iste qui vitae
+                        perferendis! Ea consequatur quidem non ducimus ratione alias ipsam repudiandae esse dolores
+                        excepturi libero quia eligendi fugiat laborum ullam, sunt reprehenderit repellendus illo atque
+                        impedit magnam omnis voluptas laboriosam? Itaque reprehenderit velit magni. Repellendus, odit.
+                    </p>
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+<!-- reservation section -->
+<div class="parallax2">
+   <a id="book1"> <section class="book"></a>
+        <h6> RESERVATION______</h6>
+        <h1>Book A Table</h1>
+
+        <div class="reserve">
+            <form class="good" action="#" method="#">
+                <input type="text" name="name" class="form" placeholder=" Your name" required>
+                <input type="email" name="email" class="form" placeholder=" Your email" required>
+                <input type="tel" name="phone" class="form" placeholder="Your phone no" required>
+                <input type="date" name="date" class="form" placeholder="Date" required>
+                <input type="time" name="time" class="form" placeholder="Time" required>
+                <input type="number" name="people" class="form" placeholder="No of People" required>
+                <textarea rows="6" name="message" class="form" placeholder="Message" required></textarea>
+                <button type="submit" class="red-btn">Book A Table</button>
+            </form>
+        </div>
+
+    </section>
+</div>
+
+<!-- testimonial section -->
+    <section class=" swiper mySwiper test">
+        <h6>TESTIMONIALS_______</h6>
+        <h1>What Customers Says About Us</h1>
+        <div class="swiper-wrapper">
+        <div class=" swiper-slide test-row">
+
+            <div class="test-col">
+                <img src="pexels-miquel-ferran-gomez-figueroa-3814446.jpg">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium atque quos nobis et!
+                        Porro
+                        quibusdam, iste sed tempore, aut ut deleniti in sit praesentium error eum asperiores
+                        possimus
+                        repellendus quae!</p>
+                    <h3>Christine Berlay</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+
+
+            <div class="test-col">
+                <img src="pexels-cottonbro-3338675.jpg">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium atque quos nobis et!
+                        Porro
+                        quibusdam, iste sed tempore, aut ut deleniti in sit praesentium error eum asperiores
+                        possimus
+                        repellendus quae!</p>
+                    <h3>Andrewson Toms</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+
+
+            <div class="test-col">
+                <img src="pexels-andres-ayrton-6578889.jpg">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium atque quos nobis et!
+                        Porro
+                        quibusdam, iste sed tempore, aut ut deleniti in sit praesentium error eum asperiores
+                        possimus
+                        repellendus quae!</p>
+                    <h3>david</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class=" swiper-slide test-row">
+
+            <div class="test-col">
+                <img src="pexels-andres-ayrton-6578889.jpg">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium atque quos nobis et!
+                        Porro
+                        quibusdam, iste sed tempore, aut ut deleniti in sit praesentium error eum asperiores
+                        possimus
+                        repellendus quae!</p>
+                    <h3>Rachael Berlay</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+
+
+            <div class="test-col">
+                <img src="pexels-cottonbro-3338675.jpg">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium atque quos nobis et!
+                        Porro
+                        quibusdam, iste sed tempore, aut ut deleniti in sit praesentium error eum asperiores
+                        possimus
+                        repellendus quae!</p>
+                    <h3>Tony Stark</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+
+
+            <div class="test-col">
+                <img src="pexels-miquel-ferran-gomez-figueroa-3814446.jpg">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium atque quos nobis et!
+                        Porro
+                        quibusdam, iste sed tempore, aut ut deleniti in sit praesentium error eum asperiores
+                        possimus
+                        repellendus quae!</p>
+                    <h3>Min su ho</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class=" swiper-slide test-row">
+
+            <div class="test-col">
+                <img src="pexels-mikhail-nilov-9543832.jpg">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium atque quos nobis et!
+                        Porro
+                        quibusdam, iste sed tempore, aut ut deleniti in sit praesentium error eum asperiores
+                        possimus
+                        repellendus quae!</p>
+                    <h3>Messy pomber</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+
+
+            <div class="test-col">
+                <img src="pexels-cottonbro-3338675.jpg">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium atque quos nobis et!
+                        Porro
+                        quibusdam, iste sed tempore, aut ut deleniti in sit praesentium error eum asperiores
+                        possimus
+                        repellendus quae!</p>
+                    <h3>Andrews tomloy</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+
+
+            <div class="test-col">
+                <img src="pexels-andres-ayrton-6578889.jpg">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium atque quos nobis et!
+                        Porro
+                        quibusdam, iste sed tempore, aut ut deleniti in sit praesentium error eum asperiores
+                        possimus
+                        repellendus quae!</p>
+                    <h3>Rochael suzui</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+</div>
+         <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+<!-- gallery section -->
+<div class="parallax2">
+    <a id="gallery1"><section class="gallery"></a>
+        <h6>GALLERY_______</h6>
+        <h1>Some Photos From Our Restaurant</h1>
+        <div class="gallery-img" id="gimgbox">
+            <img src="pexels-askar-abayev-5638751.jpg" id="gimg" ;>
+            <span onclick="closeFullImg()">X</span>
+        </div>
+        <div class="gallery-items">
+            <img src="pexels-igor-starkov-1307698.jpg" onclick="openFullImg(this.src)">
+            <img src="pexels-fauxels-3184177.jpg" onclick="openFullImg(this.src)">
+            <img src="pexels-lisa-fotios-776538.jpg" onclick="openFullImg(this.src)">
+            <img src="pexels-pixabay-260922.jpg" onclick="openFullImg(this.src)">
+            <img src="pexels-pixabay-262978.jpg" onclick="openFullImg(this.src)">
+            <img src="pexels-daria-shevtsova-704982.jpg" onclick="openFullImg(this.src)">
+            <img src="pexels-creative-vix-370984.jpg" onclick="openFullImg(this.src)">
+            <img src="pexels-yente-van-eynde-2403392.jpg" onclick="openFullImg(this.src)">
+        </div>
+    </section>
+</div>
+
+<!-- chefs section -->
+    <section class="chefs">
+        <h6>CHEFS_______</h6>
+        <h1>Our Proffesionals Chefs</h1>
+
+        <div class="chefsrow">
+            <div class="chefs-col">
+                <img src="pexels-miquel-ferran-gomez-figueroa-3814446.jpg">
+                <div class="layer">
+                    <h3>Walter White</h3>
+                    <h5>MASTER CHEF</h5>
+                </div>
+            </div>
+            <div class="chefs-col">
+                <img src="pexels-andres-ayrton-6578889.jpg">
+                <div class="layer">
+                    <h3>Sarah johnson</h3>
+                    <h5>PATTIESER</h5>
+                </div>
+            </div>
+            <div class="chefs-col">
+                <img src="pexels-cottonbro-3338675.jpg">
+                <div class="layer">
+                    <h3>William Anderson</h3>
+                    <h5>COOK</h5>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+ <!-- contact-us section -->
+    <section class="contact">
+       <a id="contact1" ><h6>CONTACT ________</h6></a>
+        <h1>Contact Us</h1>
+
+
+        <div class="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12083.669188573807!2d-73.9724287!3d40.7858323!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd84c3487c9324ba1!2sThe%20Consulate!5e0!3m2!1sen!2sin!4v1661879065537!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="contacts-us">
+            <div class="cont">
+                <div class="row">
+
+                    <div class="contacts-col">
+                        <i class="fa fa-home"></i>
+                        <div>
+                            <h5>The Consulates,New York, NY 10024, US </h5>
+                        </div>
+                    </div>
+                    <div class="contacts-col">
+                        <i class="fa fa-phone"></i>
+                        <div>
+                            <h5>+16467819288 ,Monday to saturday ,10 am</h5>
+                        </div>
+                    </div>
+                    <div class="contacts-col">
+                        <i class="fa fa-envelope-o"></i>
+                        <div>
+                            <h5>restaurantly@weownfood.com</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <form action="form_handler.php" method="post">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea rows="6" name="message" placeholder="message" required></textarea>
+                        <button type="submit" class=" red-btn ">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- footer section -->
+    <section class="footer">
+        <h4>About Us </h4>
+
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, illo commodi eos exercitationem dolore
+            beataemagnam delectus repudiandae modi voluptatibus.<br> Debitis quis iusto sapiente provident magni
+            quisquam recusandae ad. </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+        <p><i class="fa-solid fa-copyright"></i>Copyrighted by Restaurantly</p>
+        <p>Designed by Me<i class="fas fa-hand-peace"></i></p>
+
+    </section>
+<script>
+    /*navbar js*/
+var navlinks = document.getElementById("navlinks");
+function showMenu() {
+    navlinks.style.right = "0";
+}
+function hideMenu() {
+    navlinks.style.right = "-200px";
+}
+
+</script>
+
+<script>
+
+    /*swiper js*/
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        slidesPerGroup: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+<script>
+    /*gallery js*/
+var gimgbox = document.getElementById("gimgbox");
+var gimg = document.getElementById("gimg");
+function openFullImg(pic) {
+    gimgbox.style.display = "flex";
+    gimg.src = pic;
+}
+function closeFullImg() {
+    gimgbox.style.display = "none";
+}
+
+</script>
+</body>
+
+</html>
